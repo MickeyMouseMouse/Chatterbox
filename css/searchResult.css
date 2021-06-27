@@ -1,0 +1,41 @@
+#searchResult_container {
+	display: flex;
+	flex-flow: column;
+	flex: 1;
+}
+
+#searchResult_labelHeader {
+	font-size: 22;
+	font-weight: bold;
+}
+
+#searchResult_separator {
+	background-color: black;
+}
+
+#searchResult_list {
+	overflow: auto;
+}
+
+.searchResult_listItem {
+	display: flex;
+	flex-flow: row;
+	font-size: 20px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: double;
+}
+
+.searchResult_leftPanel {
+	display: inline-flex;
+	flex: 1;
+}
+
+.searchResult_rightPanel {
+	display: inline-flex;
+}
+
+.searchResult_link {
+	color: black;
+	cursor: pointer;
+}

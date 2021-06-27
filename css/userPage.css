@@ -1,0 +1,103 @@
+#userPage_container {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	width: 100%;
+}
+
+#userPage_topPanel {
+	display: flex;
+	flex-flow: row;
+	height: 150px;
+}
+
+#userPage_userPhotoPanel {
+	display: inline-flex;
+	vertical-align: middle;
+}
+
+#userPhoto {
+	border: thin solid black;
+	width: 150px;
+	height: 150px;
+}
+
+#userPage_userInfoPanel {
+	display: inline-flex;
+	flex-flow: column;
+	flex: 1;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+#userPage_userInfoTopPanel {
+	display: flex;
+	flex-flow: row;
+}
+
+#userPage_userNamePanel {
+	display: inline-flex;
+	flex: 2;
+}
+
+#userPage_userOnlineStatusPanel {
+	display: inline-flex;
+	flex: 1;
+	align-items: center;
+}
+
+#userNameField {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#userOnlineStatusField {
+	width: 100%;
+	text-align: right;
+	font-size: 20;
+}
+
+#userPage_bottomPanel {
+	display: flex;
+	flex-flow: row;
+	
+}
+
+#writeMessageButton {
+	border-radius: 10px;
+	width: 150px;
+	margin-top: 10px;
+	border: thin solid;
+	border-color: black;
+	background-color: white;
+}
+
+#editButton {
+	border-radius: 10px;
+	width: 150px;
+	margin-top: 10px;
+	border: thin solid;
+	border-color: black;
+	background-color: white;
+}
+
+#updatePhotoButton {
+	border-radius: 10px;
+	width: 150px;
+	margin-top: 10px;
+	border: thin solid;
+	border-color:  black;
+	background-color: white;
+}
+
+.listItem {
+	margin-top: 5px;
+}
+
+#updateButton, #closeButton {
+	width: 70px;
+	border-radius: 10px;
+	border: thin solid;
+	border-color:  black;
+	background-color: white;
+}

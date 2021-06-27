@@ -1,0 +1,61 @@
+#conversation_container {
+	display: flex;
+	flex-flow: column;
+	overflow: hidden;
+	height: 100%;
+}
+
+#conversation_topPanel {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+}
+
+#conversation_middlePanel {
+	flex: 1;
+	overflow: auto;
+	border: 1px solid black;
+}
+
+#conversation_bottomPanel {
+	display: flex;
+	flex-flow: row;
+	height: 35px;
+}
+
+#conversation_bottomLeftPanel {
+	display: inline-flex;
+	flex: 1;
+	align-items: center;
+	margin: 0;
+}
+
+#conversation_bottomRightPanel {
+	display: inline-flex;
+	margin: 0;
+	padding-left: 10px;
+	justify-content: right;
+	align-items: center;
+}
+
+#link {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-size: 20;
+}
+
+#messageField {
+	width: 100%;
+	font-size: 16;
+}
+
+#buttonSend {
+	width: 70px;
+	border-radius: 10px;
+	border: thin solid;
+	border-color:  black;
+	background-color: white;
+}

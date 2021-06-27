@@ -1,0 +1,50 @@
+#conversationList_container {
+	display: flex;
+	flex-flow: column;
+	flex: 1;
+}
+
+#conversationList_labelHeader {
+	font-size: 22;
+	font-weight: bold;
+}
+
+#conversationList_separator {
+	background-color: black;
+}
+
+#conversationList_list {
+	overflow: auto;
+}
+
+.conversationList_listItem {
+	display: flex;
+	flex-flow: row;
+	font-size: 20px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: double;
+}
+
+.conversationList_leftPanel {
+	display: inline-flex;
+}
+
+.conversationList_centerPanel {
+	display: inline-flex;
+	flex: 1;
+}
+
+.conversationList_rightPanel {
+	display: inline-flex;
+}
+
+.conversationList_newMessagesFlag {
+	margin-left: 5px;
+	color: red;
+}
+
+.conversationList_link {
+	color: black;
+	cursor: pointer;
+}
